@@ -1,0 +1,46 @@
+{
+  "apresentador": "Clara",
+  "enquadramento": {
+    "crop": "1215:2160:1312:0"
+  },
+  "legendas": {
+    "expressoes_inseparaveis": [
+      "Protocolo Prato Cheio",
+      "prato cheio",
+      "calça jeans",
+      "comida de verdade"
+    ]
+  },
+  "cenas": {
+    "catalogo": "edicao-videos/catalogo_cenas.csv",
+    "pasta_arquivos": "edicao-videos/cenas",
+    "classe_apresentador": "Apresentador falando",
+    "funcoes": {
+      "Problema, dor ou cansaço": [
+        "Dor e cansaço"
+      ],
+      "Explicação do mecanismo": [
+        "Metabolismo e corpo"
+      ],
+      "Orientação prática e comida": [
+        "Comida de verdade"
+      ],
+      "História da apresentadora": [
+        "História da apresentadora"
+      ],
+      "Resultado ou estado desejado": [
+        "Resultado e leveza"
+      ],
+      "Acesso ao produto e chamada": [
+        "Método e acesso"
+      ],
+      "Sem correspondência clara": [
+        "Apresentador falando"
+      ]
+    }
+  },
+  "efeito_sonoro": {
+    "arquivo": "edicao-videos/efeitos/whoosh.wav",
+    "pico_s": 0.35
+  }
+}

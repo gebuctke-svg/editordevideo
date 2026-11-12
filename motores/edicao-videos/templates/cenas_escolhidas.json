@@ -1,0 +1,9 @@
+{
+ "_leia": "Gravado pelo agente na etapa de cenas. trecho é o texto literal do script, uma oração ou frase inteira. arquivo vem do catálogo. motivo diz por que a cena representa a ideia central do trecho.",
+ "escolhas": [
+  {"trecho": "texto literal do script", "arquivo": "arquivo-do-catalogo.mp4", "funcao": "função narrativa da tabela do cliente", "motivo": "por que esta cena e não outra"}
+ ],
+ "descartadas_pelo_agente": [
+  {"trecho": "texto literal do script", "arquivo": "arquivo-do-catalogo.mp4", "motivo": "por que a cena parecia servir e não serve"}
+ ]
+}

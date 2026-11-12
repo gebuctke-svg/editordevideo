@@ -1,0 +1,107 @@
+{
+ "modo": "denso",
+ "duracao_editado_s": 40.333,
+ "pico_efeito_s": 0.35,
+ "pico_origem": "configuração",
+ "arquivo_efeito": "edicao-videos/efeitos/whoosh.wav",
+ "cenas": [
+  {
+   "n": 1,
+   "trecho": "Quando você come pouco demais por muito tempo,",
+   "arquivo": "mulher-prato-quase-vazio.mp4",
+   "classe": "Dor e cansaço",
+   "funcao": "Problema, dor ou cansaço",
+   "motivo": "A oração fala de comer pouco por muito tempo. A cena mostra exatamente um prato quase vazio e uma mulher cansada, e o campo quando usar cita comer pouco sem resultado.",
+   "ini": 4.555,
+   "fim": 7.455,
+   "duracao_s": 2.9,
+   "apresentador_antes_s": 4.555,
+   "trecho_longo_com_arquivo_suficiente": false,
+   "efeito_ini": 4.205
+  },
+  {
+   "n": 2,
+   "trecho": "Ele entende que falta comida e passa a guardar tudo o que pode.",
+   "arquivo": "metabolismo-cofre-animacao.mp4",
+   "classe": "Metabolismo e corpo",
+   "funcao": "Explicação do mecanismo",
+   "motivo": "A frase explica o mecanismo do metabolismo que guarda energia. A animação do cofre que guarda comida tem esse uso escrito no catálogo.",
+   "ini": 9.472,
+   "fim": 13.72,
+   "duracao_s": 4.248,
+   "apresentador_antes_s": 2.017,
+   "trecho_longo_com_arquivo_suficiente": false,
+   "efeito_ini": 9.122
+  },
+  {
+   "n": 3,
+   "trecho": "Depois da segunda gravidez, eu engordei 14 quilos.",
+   "arquivo": "clara-foto-antiga-gravidez.mp4",
+   "classe": "História da apresentadora",
+   "funcao": "História da apresentadora",
+   "motivo": "A frase é a história pessoal da gravidez. As fotos antigas da Clara grávida mostram o fato narrado.",
+   "ini": 15.847,
+   "fim": 19.111,
+   "duracao_s": 3.264,
+   "apresentador_antes_s": 2.127,
+   "trecho_longo_com_arquivo_suficiente": false,
+   "efeito_ini": 15.497
+  },
+  {
+   "n": 4,
+   "trecho": "Arroz, feijão, ovo e salada, com proteína em todas as refeições.",
+   "arquivo": "prato-cheio-de-cima.mp4",
+   "classe": "Comida de verdade",
+   "funcao": "Orientação prática e comida",
+   "motivo": "A frase lista a comida do prato cheio. A cena mostra esse prato visto de cima e o quando usar cita a lista da comida.",
+   "ini": 26.289,
+   "fim": 30.216,
+   "duracao_s": 3.927,
+   "apresentador_antes_s": 7.178,
+   "trecho_longo_com_arquivo_suficiente": false,
+   "efeito_ini": 25.939
+  },
+  {
+   "n": 5,
+   "trecho": "Se você quer voltar a caber na sua calça jeans,",
+   "arquivo": "mulher-fecha-calca-sorrindo.mp4",
+   "classe": "Resultado e leveza",
+   "funcao": "Resultado ou estado desejado",
+   "motivo": "A oração nomeia o resultado desejado, voltar a caber na calça. A cena mostra a mulher fechando a calça jeans e sorrindo.",
+   "ini": 34.581,
+   "fim": 38.346,
+   "duracao_s": 3.765,
+   "apresentador_antes_s": 4.365,
+   "trecho_longo_com_arquivo_suficiente": false,
+   "efeito_ini": 34.231
+  }
+ ],
+ "recusadas": [
+  {
+   "trecho": "Hoje eu ensino isso no Protocolo Prato Cheio, em 21 dias.",
+   "arquivo": "notebook-area-de-aulas.mp4",
+   "funcao": "Acesso ao produto e chamada",
+   "motivo": "retorno ao apresentador de 0.12 s, abaixo do mínimo de 1.5 s"
+  },
+  {
+   "trecho": "clica no link e começa hoje.",
+   "arquivo": "celular-toque-link.mp4",
+   "funcao": "Acesso ao produto e chamada",
+   "motivo": "o vídeo termina com o apresentador falando"
+  }
+ ],
+ "estatisticas": {
+  "cenas": 5,
+  "tempo_em_cenas_s": 18.104,
+  "fracao_do_video": 0.449,
+  "trechos_do_apresentador_s": [
+   4.555,
+   2.017,
+   2.127,
+   7.178,
+   4.365,
+   1.987
+  ],
+  "trechos_no_alvo": "2 de 6 entre 2.0 e 4.0 s"
+ }
+}

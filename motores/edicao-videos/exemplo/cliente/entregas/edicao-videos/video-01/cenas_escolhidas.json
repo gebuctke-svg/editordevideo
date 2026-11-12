@@ -1,0 +1,24 @@
+{
+ "escolhas": [
+  {"trecho": "Quando você come pouco demais por muito tempo,", "arquivo": "mulher-prato-quase-vazio.mp4", "funcao": "Problema, dor ou cansaço",
+   "motivo": "A oração fala de comer pouco por muito tempo. A cena mostra exatamente um prato quase vazio e uma mulher cansada, e o campo quando usar cita comer pouco sem resultado."},
+  {"trecho": "Ele entende que falta comida e passa a guardar tudo o que pode.", "arquivo": "metabolismo-cofre-animacao.mp4", "funcao": "Explicação do mecanismo",
+   "motivo": "A frase explica o mecanismo do metabolismo que guarda energia. A animação do cofre que guarda comida tem esse uso escrito no catálogo."},
+  {"trecho": "Depois da segunda gravidez, eu engordei 14 quilos.", "arquivo": "clara-foto-antiga-gravidez.mp4", "funcao": "História da apresentadora",
+   "motivo": "A frase é a história pessoal da gravidez. As fotos antigas da Clara grávida mostram o fato narrado."},
+  {"trecho": "Arroz, feijão, ovo e salada, com proteína em todas as refeições.", "arquivo": "prato-cheio-de-cima.mp4", "funcao": "Orientação prática e comida",
+   "motivo": "A frase lista a comida do prato cheio. A cena mostra esse prato visto de cima e o quando usar cita a lista da comida."},
+  {"trecho": "Hoje eu ensino isso no Protocolo Prato Cheio, em 21 dias.", "arquivo": "notebook-area-de-aulas.mp4", "funcao": "Acesso ao produto e chamada",
+   "motivo": "A frase apresenta o produto. A cena mostra a área de aulas do Protocolo."},
+  {"trecho": "Se você quer voltar a caber na sua calça jeans,", "arquivo": "mulher-fecha-calca-sorrindo.mp4", "funcao": "Resultado ou estado desejado",
+   "motivo": "A oração nomeia o resultado desejado, voltar a caber na calça. A cena mostra a mulher fechando a calça jeans e sorrindo."},
+  {"trecho": "clica no link e começa hoje.", "arquivo": "celular-toque-link.mp4", "funcao": "Acesso ao produto e chamada",
+   "motivo": "A oração pede o clique no link. A cena mostra o dedo tocando o link."}
+ ],
+ "descartadas_pelo_agente": [
+  {"trecho": "Tentei emagrecer 6 vezes em 3 anos, sempre cortando comida.", "arquivo": "maos-cortando-legumes.mp4",
+   "motivo": "Só a palavra cortando coincide. A frase fala de cortar comida para emagrecer e a cena mostra preparo de comida. A correspondência seria por palavra solta, e isso é proibido."},
+  {"trecho": "Só emagreci quando voltei a comer prato cheio.", "arquivo": "prato-cheio-de-cima.mp4",
+   "motivo": "A cena combina, mas ela serve melhor na frase seguinte, que lista a comida. Uma cena não se repete no vídeo, então esta frase fica com a Clara."}
+ ]
+}
