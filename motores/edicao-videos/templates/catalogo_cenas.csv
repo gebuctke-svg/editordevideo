@@ -1,0 +1,5 @@
+arquivo,classe,descricao,quando_usar,duracao_s,formato,orientacao,observacao
+apresentador-falando.mp4,Apresentador falando,O apresentador falando para a câmera no cenário principal,base do vídeo; nunca entra como cena de apoio,600.0,1080x1920,vertical,gravação principal
+exemplo-dor-01.mp4,Dor e cansaço,Pessoa sentada à mesa com a mão na testa depois de um dia longo,fala sobre cansaço e frustração com o problema,6.0,1080x1920,vertical,
+exemplo-metodo-01.mp4,Método na prática,Mãos anotando os passos num caderno,explicação de como o método funciona,8.0,1080x1920,vertical,
+exemplo-metodo-01-copia.mp4,Método na prática,Mãos anotando os passos num caderno,mesmo uso do original,8.0,1080x1920,vertical,duplicado de exemplo-metodo-01.mp4

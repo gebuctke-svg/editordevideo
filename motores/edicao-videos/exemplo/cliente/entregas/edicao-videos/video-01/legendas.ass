@@ -1,0 +1,53 @@
+[Script Info]
+; Gerado pelo motor de edição de vídeos do Start.IA
+; BorderStyle 3 desenha a caixa de fundo em OutlineColour. O ASS não arredonda cantos:
+; para o raio de 20 px exato, use legendas_png (legendas.py --png).
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Legenda,Figtree,52,&H00FFFFFF,&H00FFFFFF,&HCC000000,&HFF000000,-1,0,0,0,100,100,0,0,3,25,0,2,40,40,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.04,0:00:01.11,Legenda,,0,0,0,,VOCÊ COME POUCO
+Dialogue: 0,0:00:01.11,0:00:02.01,Legenda,,0,0,0,,E MESMO ASSIM
+Dialogue: 0,0:00:02.01,0:00:02.88,Legenda,,0,0,0,,NÃO EMAGRECE?
+Dialogue: 0,0:00:02.88,0:00:03.73,Legenda,,0,0,0,,OLHA A CULPA
+Dialogue: 0,0:00:03.73,0:00:04.56,Legenda,,0,0,0,,NÃO É SUA
+Dialogue: 0,0:00:04.56,0:00:05.67,Legenda,,0,0,0,,QUANDO VOCÊ COME
+Dialogue: 0,0:00:05.67,0:00:06.50,Legenda,,0,0,0,,POUCO DEMAIS
+Dialogue: 0,0:00:06.50,0:00:07.51,Legenda,,0,0,0,,POR MUITO TEMPO
+Dialogue: 0,0:00:07.51,0:00:08.68,Legenda,,0,0,0,,O SEU METABOLISMO
+Dialogue: 0,0:00:08.68,0:00:09.47,Legenda,,0,0,0,,SE DEFENDE
+Dialogue: 0,0:00:09.47,0:00:10.29,Legenda,,0,0,0,,ELE ENTENDE
+Dialogue: 0,0:00:10.29,0:00:11.46,Legenda,,0,0,0,,QUE FALTA COMIDA
+Dialogue: 0,0:00:11.46,0:00:12.01,Legenda,,0,0,0,,E PASSA
+Dialogue: 0,0:00:12.01,0:00:12.99,Legenda,,0,0,0,,A GUARDAR TUDO
+Dialogue: 0,0:00:12.99,0:00:13.80,Legenda,,0,0,0,,O QUE PODE
+Dialogue: 0,0:00:13.80,0:00:14.65,Legenda,,0,0,0,,EU SEI DISSO
+Dialogue: 0,0:00:14.65,0:00:15.85,Legenda,,0,0,0,,PORQUE VIVI ISSO
+Dialogue: 0,0:00:15.85,0:00:17.53,Legenda,,0,0,0,,DEPOIS DA SEGUNDA GRAVIDEZ
+Dialogue: 0,0:00:17.53,0:00:19.23,Legenda,,0,0,0,,EU ENGORDEI 14 QUILOS
+Dialogue: 0,0:00:19.23,0:00:20.93,Legenda,,0,0,0,,TENTEI EMAGRECER 6 VEZES
+Dialogue: 0,0:00:20.93,0:00:21.79,Legenda,,0,0,0,,EM 3 ANOS
+Dialogue: 0,0:00:21.79,0:00:23.24,Legenda,,0,0,0,,SEMPRE CORTANDO COMIDA
+Dialogue: 0,0:00:23.24,0:00:24.43,Legenda,,0,0,0,,SÓ EMAGRECI QUANDO
+Dialogue: 0,0:00:24.43,0:00:25.51,Legenda,,0,0,0,,VOLTEI A COMER
+Dialogue: 0,0:00:25.51,0:00:26.29,Legenda,,0,0,0,,PRATO CHEIO
+Dialogue: 0,0:00:26.29,0:00:27.36,Legenda,,0,0,0,,ARROZ FEIJÃO OVO
+Dialogue: 0,0:00:27.36,0:00:28.02,Legenda,,0,0,0,,E SALADA
+Dialogue: 0,0:00:28.02,0:00:28.82,Legenda,,0,0,0,,COM PROTEÍNA
+Dialogue: 0,0:00:28.82,0:00:30.34,Legenda,,0,0,0,,EM TODAS AS REFEIÇÕES
+Dialogue: 0,0:00:30.34,0:00:31.69,Legenda,,0,0,0,,HOJE EU ENSINO ISSO
+Dialogue: 0,0:00:31.69,0:00:33.31,Legenda,,0,0,0,,NO PROTOCOLO PRATO CHEIO
+Dialogue: 0,0:00:33.31,0:00:34.58,Legenda,,0,0,0,,EM 21 DIAS
+Dialogue: 0,0:00:34.58,0:00:35.46,Legenda,,0,0,0,,SE VOCÊ QUER
+Dialogue: 0,0:00:36.08,0:00:37.11,Legenda,,0,0,0,,VOLTAR A CABER
+Dialogue: 0,0:00:37.11,0:00:38.40,Legenda,,0,0,0,,NA SUA CALÇA JEANS
+Dialogue: 0,0:00:38.40,0:00:39.36,Legenda,,0,0,0,,CLICA NO LINK
+Dialogue: 0,0:00:39.36,0:00:40.26,Legenda,,0,0,0,,E COMEÇA HOJE

@@ -1,0 +1,282 @@
+{
+ "fps": 30.0,
+ "fonte_transcricao": "simulada para o exemplo (no uso real: whisper-cli com tempo por palavra, em janelas curtas)",
+ "vale_de_energia": "não medido (sem --audio): conferir cortes de ouvido",
+ "duracao_bruto_s": 63.421,
+ "duracao_editado_s": 40.333,
+ "maior_intervalo_editado_s": 0.117,
+ "trechos": [
+  [
+   5.23333,
+   8.06667
+  ],
+  [
+   8.43333,
+   10.1
+  ],
+  [
+   10.6,
+   15.03333
+  ],
+  [
+   15.46667,
+   15.96667
+  ],
+  [
+   17.43333,
+   19.4
+  ],
+  [
+   19.93333,
+   22.3
+  ],
+  [
+   26.4,
+   28.4
+  ],
+  [
+   28.8,
+   32.2
+  ],
+  [
+   36.93333,
+   40.96667
+  ],
+  [
+   42.0,
+   45.06667
+  ],
+  [
+   45.53333,
+   49.53333
+  ],
+  [
+   50.03333,
+   54.3
+  ],
+  [
+   54.8,
+   60.6
+  ]
+ ],
+ "frases": [
+  {
+   "frase": 0,
+   "texto": "Você come pouco e mesmo assim não emagrece?",
+   "tomada_bruto": [
+    5.27,
+    8.02
+   ],
+   "tomadas_encontradas": 1,
+   "casamento": "exato",
+   "razao": 1.0
+  },
+  {
+   "frase": 1,
+   "texto": "Olha, a culpa não é sua.",
+   "tomada_bruto": [
+    8.47,
+    10.047
+   ],
+   "tomadas_encontradas": 1,
+   "casamento": "exato",
+   "razao": 1.0
+  },
+  {
+   "frase": 2,
+   "texto": "Quando você come pouco demais por muito tempo, o seu metabolismo se defende.",
+   "tomada_bruto": [
+    10.647,
+    15.923
+   ],
+   "tomadas_encontradas": 1,
+   "casamento": "aproximado",
+   "razao": 0.963
+  },
+  {
+   "frase": 3,
+   "texto": "Ele entende que falta comida e passa a guardar tudo o que pode.",
+   "tomada_bruto": [
+    17.473,
+    22.245
+   ],
+   "tomadas_encontradas": 1,
+   "casamento": "exato",
+   "razao": 1.0
+  },
+  {
+   "frase": 4,
+   "texto": "Eu sei disso porque vivi isso.",
+   "tomada_bruto": [
+    26.438,
+    28.366
+   ],
+   "tomadas_encontradas": 1,
+   "casamento": "exato",
+   "razao": 1.0
+  },
+  {
+   "frase": 5,
+   "texto": "Depois da segunda gravidez, eu engordei 14 quilos.",
+   "tomada_bruto": [
+    28.866,
+    32.146
+   ],
+   "tomadas_encontradas": 1,
+   "casamento": "exato",
+   "razao": 1.0
+  },
+  {
+   "frase": 6,
+   "texto": "Tentei emagrecer 6 vezes em 3 anos, sempre cortando comida.",
+   "tomada_bruto": [
+    36.976,
+    40.922
+   ],
+   "tomadas_encontradas": 1,
+   "casamento": "exato",
+   "razao": 1.0
+  },
+  {
+   "frase": 7,
+   "texto": "Só emagreci quando voltei a comer prato cheio.",
+   "tomada_bruto": [
+    42.051,
+    45.018
+   ],
+   "tomadas_encontradas": 1,
+   "casamento": "exato",
+   "razao": 1.0
+  },
+  {
+   "frase": 8,
+   "texto": "Arroz, feijão, ovo e salada, com proteína em todas as refeições.",
+   "tomada_bruto": [
+    45.568,
+    49.49
+   ],
+   "tomadas_encontradas": 1,
+   "casamento": "exato",
+   "razao": 1.0
+  },
+  {
+   "frase": 9,
+   "texto": "Hoje eu ensino isso no Protocolo Prato Cheio, em 21 dias.",
+   "tomada_bruto": [
+    50.09,
+    54.256
+   ],
+   "tomadas_encontradas": 1,
+   "casamento": "exato",
+   "razao": 1.0
+  },
+  {
+   "frase": 10,
+   "texto": "Se você quer voltar a caber na sua calça jeans, clica no link e começa hoje.",
+   "tomada_bruto": [
+    54.856,
+    60.54
+   ],
+   "tomadas_encontradas": 1,
+   "casamento": "aproximado",
+   "razao": 0.97
+  }
+ ],
+ "frases_ausentes": [],
+ "descartes": [
+  {
+   "ini": 0.0,
+   "fim": 5.233,
+   "texto": "[respiração] Você come pouco e mesmo assim não ema",
+   "motivo": "tomada anterior ou falso começo (fica a última tomada)"
+  },
+  {
+   "ini": 8.067,
+   "fim": 8.433,
+   "texto": "",
+   "motivo": "silêncio ou pausa longa"
+  },
+  {
+   "ini": 10.1,
+   "fim": 10.6,
+   "texto": "",
+   "motivo": "silêncio ou pausa longa"
+  },
+  {
+   "ini": 15.229,
+   "fim": 15.418,
+   "texto": "se",
+   "motivo": "gaguejo (palavra repetida)"
+  },
+  {
+   "ini": 15.967,
+   "fim": 17.433,
+   "texto": "[pigarro]",
+   "motivo": "ruído: [pigarro]"
+  },
+  {
+   "ini": 19.4,
+   "fim": 19.933,
+   "texto": "",
+   "motivo": "silêncio ou pausa longa"
+  },
+  {
+   "ini": 22.3,
+   "fim": 26.4,
+   "texto": "Pera, deixa eu ver o texto.",
+   "motivo": "comentário fora do script"
+  },
+  {
+   "ini": 28.4,
+   "fim": 28.8,
+   "texto": "",
+   "motivo": "silêncio ou pausa longa"
+  },
+  {
+   "ini": 32.2,
+   "fim": 36.933,
+   "texto": "Tentei emagrecer seis vezes em três não, de novo.",
+   "motivo": "tomada anterior ou falso começo (fica a última tomada)"
+  },
+  {
+   "ini": 40.967,
+   "fim": 42.0,
+   "texto": "é...",
+   "motivo": "vício de linguagem"
+  },
+  {
+   "ini": 45.067,
+   "fim": 45.533,
+   "texto": "",
+   "motivo": "silêncio ou pausa longa"
+  },
+  {
+   "ini": 49.533,
+   "fim": 50.033,
+   "texto": "",
+   "motivo": "silêncio ou pausa longa"
+  },
+  {
+   "ini": 54.3,
+   "fim": 54.8,
+   "texto": "",
+   "motivo": "silêncio ou pausa longa"
+  },
+  {
+   "ini": 60.6,
+   "fim": 63.421,
+   "texto": "[respiração] Corta.",
+   "motivo": "comentário fora do script"
+  }
+ ],
+ "desvios_mantidos": [
+  {
+   "w": "realmente",
+   "ini_bruto": 55.794,
+   "frase": 10,
+   "motivo": "palavra solta dentro de fala fluida: fica no áudio, a legenda segue o script",
+   "ini_editado": 35.527
+  }
+ ],
+ "avisos": []
+}

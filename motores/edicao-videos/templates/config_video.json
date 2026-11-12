@@ -1,0 +1,98 @@
+{
+  "_leia": "Padrão do motor. O cliente ajusta em cliente/edicao-videos/config.json e cada vídeo pode ajustar em config_video.json dentro da pasta da entrega. Só os campos que mudam precisam aparecer.",
+  "apresentador": "{NOME}",
+  "saida": {
+    "largura": 1080,
+    "altura": 1920,
+    "fps": 30,
+    "orientacao": "vertical",
+    "arquivo": "final.mp4",
+    "codec_video": "libx264",
+    "bitrate_video": "8M",
+    "codec_audio": "aac",
+    "bitrate_audio": "192k"
+  },
+  "enquadramento": {
+    "_leia": "Informado em cada projeto. Nunca deduzido pelo agente. crop no formato do ffmpeg: largura:altura:x:y do vídeo bruto. Vazio quando o bruto já está no formato certo.",
+    "crop": ""
+  },
+  "transcricao": {
+    "motor": "whisper-cpp",
+    "executavel": "whisper-cli",
+    "modelo": "",
+    "_modelo": "Caminho completo do modelo (por exemplo, ggml-large-v3-turbo.bin). Vazio usa a variável WHISPER_MODELO de cliente/.env.",
+    "dtw": "large.v3.turbo",
+    "idioma": "pt",
+    "janela_max_s": 38,
+    "silencio_db": -25,
+    "silencio_min_s": 0.35
+  },
+  "cortes": {
+    "intervalo_alvo_s": 0.1,
+    "intervalo_max_s": 0.2,
+    "margem_palavra_s": 0.05,
+    "vale_db": -22,
+    "raio_vale_s": 0.25,
+    "repeticao_min_palavras": 3,
+    "gaguejo_folga_min_s": 0.06,
+    "casamento_minimo": 0.75,
+    "sincronia_av_max_s": 0.04
+  },
+  "legendas": {
+    "fonte": "Figtree",
+    "peso": "Bold",
+    "tamanho_px": 52,
+    "caixa_alta": true,
+    "cor": "#FFFFFF",
+    "alinhamento": "centro",
+    "espacamento_letras": 0,
+    "espacamento_linhas": 0,
+    "contorno": 0,
+    "sombra": 0,
+    "fundo_cor": "#000000",
+    "fundo_opacidade": 0.2,
+    "fundo_margem": 25,
+    "fundo_raio": 20,
+    "ancora": "centro_inferior",
+    "pos_x": 0,
+    "pos_y": -200,
+    "margem_lateral": 40,
+    "palavras_min": 2,
+    "palavras_max": 4,
+    "palavras_alvo": 3,
+    "caracteres_max_linha": 28,
+    "tolerancia_sincronia_s": 0.1,
+    "vao_continuo_s": 0.3,
+    "pontuacao_mantida": "?",
+    "expressoes_inseparaveis": [],
+    "_expressoes": "Nomes de produto, do método e expressões da marca que nunca se partem entre dois blocos. Vêm da fundação e do posicionamento."
+  },
+  "cenas": {
+    "catalogo": "edicao-videos/catalogo_cenas.csv",
+    "pasta_arquivos": "edicao-videos/cenas",
+    "modo": "denso",
+    "modos": {
+      "denso": {
+        "apresentador_min_s": 2.0,
+        "apresentador_alvo_s": 3.0,
+        "apresentador_max_s": 4.0
+      },
+      "espacado": {
+        "apresentador_min_s": 10.0,
+        "apresentador_alvo_s": 12.0,
+        "apresentador_max_s": 15.0
+      }
+    },
+    "retorno_min_s": 1.5,
+    "duracao_min_s": 2.0,
+    "duracao_max_s": 6.0,
+    "fracao_max_video": 0.5,
+    "classe_apresentador": "Apresentador falando"
+  },
+  "efeito_sonoro": {
+    "_leia": "Toca a cada entrada de cena de apoio. O pico do som cai exatamente no corte de entrada. Se o arquivo existir, o pico é medido nele. Se não, vale pico_s.",
+    "arquivo": "edicao-videos/efeitos/whoosh.wav",
+    "pico_s": 0.35,
+    "volume_db": 0
+  }
+}
