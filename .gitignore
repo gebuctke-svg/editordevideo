@@ -1,0 +1,5 @@
+# vídeos da aluna ficam fora do git
+brutos/*
+!brutos/.gitkeep
+prontos/*
+!prontos/.gitkeep
